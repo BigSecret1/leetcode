@@ -21,7 +21,6 @@ public:
 					 else return 0;
 					}
 			}
-			for(auto it : dp) cout << it << " "; cout << endl;
 			return dp[n - 1];
     }
     bool Check(char a, char b) {
