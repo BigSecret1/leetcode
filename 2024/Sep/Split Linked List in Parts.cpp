@@ -33,7 +33,6 @@ public:
             return answer;
         }
         int extra = n % k;
-        while(answer.size() < k) {
             ListNode* root, *start = new ListNode();
             root = NULL; 
             int cnt = 0;
@@ -57,7 +56,6 @@ public:
                         start = NULL;
                 }
             }
-        }
         return answer;
     }
 };
